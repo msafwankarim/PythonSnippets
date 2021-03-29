@@ -6,9 +6,8 @@ db_conn = ""
 def init():
     global db_conn
     user = os.environ.get('USERNAME')
-    if user != 'Safwan':
-        print("Unauthorized use of code\nexiting...")
-    db_conn = sqlite3.connect("C:\\Users\\Safwan\\temp_logs.db")
+    
+    db_conn = sqlite3.connect(f"C:\\Users\\{user}\\file_name.db")
     if db_conn is None:
         raise ConnectionError("Error in finding file")
 
@@ -40,7 +39,7 @@ def main():
     if domain is None and not listall:
         parser.print_help()
     elif listall:
-        cursor = db_conn.execute("SELECT domain FROM temporary")
+        cursor = db_conn.execute("SELECT domain FROM tablename")
         print("Domain\n=======")
         for row in cursor:
             print(row[0])

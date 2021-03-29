@@ -1,5 +1,5 @@
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-#       Author:     Safwan aka Hammer                                                       #
+#       Author:     Safwan                                                                  #
 #       Date:       Friday, 19 March 2021 8:47:58 PM                                        #
 #       Brief:      This program will extract wifi passwords from windows computer to the   #
 #                   HOST                                                                    #

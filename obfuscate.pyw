@@ -2,7 +2,8 @@
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 #       Author:     Safwan                                                                  #
 #       Date:       Friday, 19 March 2021 8:47:58 PM                                        #
-#       Brief:      Following code will base64 encoded churan with custom domain lock.      #
+#       Brief:      Following code will generate base64 encoded code with custom domain     #
+#                   lock                                                                    #
 #                 > This script wrap the input(JS) code into a condition and encodes string #
 #                   to base64.                                                              #
 #                 > Code will generate infinite alertboxes on site if it is used on any     #

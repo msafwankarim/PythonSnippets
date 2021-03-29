@@ -1,8 +1,8 @@
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 #       Author:     Safwan                                                                  #
 #       Date:       Friday, 19 February 2021 9:15:13 PM                                     #
-#       Brief:      Backend server that will listen at port 8080 for dump wifi passwords    #
-#                   and write a data.zip file.                                              #
+#       Brief:      Backend server that will listen at port 8080 for wifi passwords dump    #
+#                   and write it to data.zip file.                                          #
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 import socket

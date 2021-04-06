@@ -2,6 +2,11 @@
 
 Miscellinous python snippets for random stuff
 
+### Obfuscate:
+Obfuscates JS code 
+![image](https://user-images.githubusercontent.com/66724151/113707307-28c5b200-96f9-11eb-8c21-234710986c86.png)
+
+
 ### Vigenere Algebric:
 ![image](https://user-images.githubusercontent.com/66724151/113705604-12b6f200-96f7-11eb-8265-a3c92131b974.png)
 
